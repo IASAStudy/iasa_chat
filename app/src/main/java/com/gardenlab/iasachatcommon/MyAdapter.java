@@ -1,4 +1,4 @@
-package com.gardenlab.iasachat;
+package com.gardenlab.iasachatcommon;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -61,5 +61,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     @Override
     public int getItemCount() {
         return mDataset != null ? mDataset.size(): 0;
+    }
+
+    public void addChat(ChatData chatData) {
+        mDataset.add(chatData);
+        notifyItemInserted(mDataset.size()-1); // 데이터 추가
     }
 }

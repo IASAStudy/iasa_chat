@@ -1,4 +1,4 @@
-package com.gardenlab.iasachat;
+package com.gardenlab.iasachatcommon;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.gardenlab.iasachat;
+package com.gardenlab.iasachatcommon;
 
 public class ChatData {
 
@@ -19,6 +19,10 @@ public class ChatData {
 
     public void setMsg(String msg) {
         this.msg = msg;
+    }
+
+    ChatData() {
+        this("1","1");
     }
 
     ChatData(String nick, String msg){

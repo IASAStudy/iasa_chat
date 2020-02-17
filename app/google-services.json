@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "927565572334",
+    "firebase_url": "https://iasachatcommon.firebaseio.com",
+    "project_id": "iasachatcommon",
+    "storage_bucket": "iasachatcommon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927565572334:android:121a9346d191007676abff",
+        "android_client_info": {
+          "package_name": "com.gardenlab.iasachatcommon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927565572334-kshm59hddc1en57dl3gvgnbucne5p05b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEnOVIWMX2SnKXD2CHv3F_lfoNRNd4Hb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927565572334-kshm59hddc1en57dl3gvgnbucne5p05b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
